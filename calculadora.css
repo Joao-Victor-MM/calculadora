@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.calcbg{
+    width: 250px;
+    height: 370px;
+    background-color: rgb(68, 68, 68);
+    position: absolute;
+    border-radius: 10px;
+}
+
+.calcpanel{              
+    background-color: white;
+    width: 240px;
+    height: 40px ;
+    margin: 5px;
+    color: black;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 20PX ;
+}
+
+button{
+    margin: 0.px;
+    background-color: rgb(14, 13, 13) ;
+    border: none;
+    height: 50px;
+    width: 60px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+}
+
